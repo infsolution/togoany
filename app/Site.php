@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Site extends Model
 {
     public $timestamps = true;
-   protected $fillable = array('name', 'url');
+    protected $fillable = array('name', 'url');
 
    function news(){
    	return $this->hasMany('News');

@@ -19,4 +19,6 @@ class SiteController extends Controller{
 		return "Fail";
 	}
 
+	
+
 }

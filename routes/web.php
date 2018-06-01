@@ -13,6 +13,7 @@
 
 Route::get('/','NewsController@listNews');
 Route::get('/sites','SiteController@searchSite');
+Route::get('/detail/{id}', 'NewsController@openLink');
 
 //Route::get('/addsite/{name}/{url}','SiteController@addSite')/*->where('name','[a-zA-Z]+')*/;
 Route::get('/add/{name}/{url}','SiteController@add');
